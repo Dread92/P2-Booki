@@ -1,3 +1,7 @@
+
+/* Global */
+
+
 * 
 {
 	box-sizing: border-box;
@@ -5,18 +9,63 @@
 	
 }
 
-
-
 /* Test zone  */
+main {
+	width: 90%;
+	max-width: 2560px;
+	margin: auto;
+  }
 
-.black_star
-{
-	color:black;
-}
+footer {
+	width: 90%;
+	max-width: 2560px;
+	margin: auto;
+  }
 
-.price
-{
-	font-weight: bold;
-}
 /* _____________________________________________________*/
+
+
+/*header*/
+
+header {
+	width: 90%;
+	max-width: 2560px;
+	margin: auto;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+
+.logo_booki
+{
+	margin-top:50px;
+	height:75px;
+	width:150px
+	
+}
+
+.menu
+{
+	margin-top:50px;
+	list-style-type: none;
+	display:flex;
+	justify-content: flex-end;
+	
+	
+	
+}
+.menu_list a
+{
+	padding:20px;
+	text-decoration: none;
+	font-size:24px;
+	color: initial
+}
+
+.menu_list a:hover
+{
+color: #0065FC;
+border-top: 5px solid #0065FC;
+}
+
 
