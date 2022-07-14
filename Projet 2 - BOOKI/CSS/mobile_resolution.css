@@ -3,37 +3,49 @@
 
 /* header*/
 
+
 header {
-	width: 98%;
+	
 	display: flex;
 	flex-direction: column;
+    
     
   }
 
 .logo_booki
 {
-    margin-left: 30%;
-	align-items: center; 
+    margin-left:27% ;	 
 	height: 85px;
 }
 
-.menu
+nav
 {
-    
-	display: flex;
-	font-weight: 500;
-    justify-content:space-evenly
+display: flex;
+flex-direction: row;
+flex-direction: row-reverse;
+
 }
 
 nav li a:hover
 {
     border-top:none;
-	border-bottom: 3px solid #0065FC;;
+	border-bottom: 4px solid #0065FC;;
     color: #0065FC; 
 	padding:15px;
-    border-
+   
 }
 
+
+
+
+
+nav li a 
+{
+    display: flex;
+   justify-content: center;
+    border-bottom: 4px solid #F2F2F2;
+    padding: 15px
+}
 
 
 

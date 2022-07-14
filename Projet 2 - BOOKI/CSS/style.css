@@ -35,6 +35,7 @@ footer {
 
 /*header*/
 
+
 header {
 	width: 98%;
 	max-width: 1500px;
@@ -63,7 +64,8 @@ header {
 	padding-top: 30px;
 }
 
-nav li a 
+
+nav li a
 {
 	text-decoration:none;
     color: black;
@@ -73,6 +75,7 @@ nav li a:hover
 	border-top: 3px solid #0065FC;;
     color: #0065FC; 
 	padding:40px;
+	border-bottom:none;
 }
 
 
