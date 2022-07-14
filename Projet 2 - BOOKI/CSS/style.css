@@ -12,18 +12,21 @@
     padding: 0;
 }
 
-
+.stars
+{
+	color:#0065FC;
+}
 
 /* Test zone  */
 main {
 	width: 98%;
-	max-width: 1400px;
+	max-width: 1500px;
 	margin: auto;
   }
 
 footer {
 	width: 98%;
-	max-width: 1400px;
+	max-width: 1500px;
 	margin: auto;
   }
 
@@ -34,7 +37,7 @@ footer {
 
 header {
 	width: 98%;
-	max-width: 1400px;
+	max-width: 1500px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +46,7 @@ header {
 .logo_booki
 {
 		padding-top: 25px;
-        padding-left: 10px; 
+        padding-left: 45px; 
 		height: 85px;
 }
 
@@ -70,4 +73,30 @@ nav li a:hover
 	border-top: 3px solid #0065FC;;
         color: #0065FC; 
 		padding:40px;
+}
+
+
+
+/*Main title*/
+
+.main_title
+{
+	
+}
+
+.main_title h1 
+{
+	font-size: 23px;
+	font-weight:bolder !important;	
+	padding-top:14px;
+	padding-left:14px;
+}
+
+.main_title p
+{
+	font-weight:400  !important;	
+
+padding-top:0;
+	padding-left:14px;
+
 }
