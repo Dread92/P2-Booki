@@ -45,9 +45,9 @@ header {
 
 .logo_booki
 {
-		padding-top: 25px;
-        padding-left: 45px; 
-		height: 85px;
+	padding-top: 25px;
+    padding-left: 45px; 
+	height: 85px;
 }
 
 .menu
@@ -71,32 +71,98 @@ nav li a
 nav li a:hover
 {
 	border-top: 3px solid #0065FC;;
-        color: #0065FC; 
-		padding:40px;
+    color: #0065FC; 
+	padding:40px;
 }
 
 
 
 /*Main title*/
 
-.main_title
-{
-	
-}
+
 
 .main_title h1 
 {
 	font-size: 23px;
-	font-weight:bolder !important;	
+	font-weight:800;
 	padding-top:14px;
 	padding-left:14px;
+	margin-bottom: 0;
 }
 
 .main_title p
 {
-	font-weight:400  !important;	
-
-padding-top:0;
+	font-weight: 500;
 	padding-left:14px;
-
+	margin-top: 8px;
+	
 }
+
+
+/* Searchbar */
+
+
+.searchbar 
+{
+	padding-left: 15px;
+	display: flex;
+	
+	
+	
+}
+
+.glass
+{
+	display: none;
+}
+
+.inputsearch
+
+{
+	display: flex;
+	height:50px;
+	width: 250px;
+	font-size: 18px;
+	writing-mode: horizontal-tb;
+	border:0.5px solid #F2F2F2
+	
+	
+}
+
+.placeholder
+{
+	padding-left:10px;
+	width:240px;
+	font-weight: bold;
+	color:black;
+	border:#F2F2F2;
+	outline:none;
+	
+	
+}
+
+.research_button
+{
+	color:white;
+	font-weight: bold;
+	height: 50px;
+	width: 130px;
+	background-color: #0065FC;
+	border-radius: 0 15px 15px 0;
+	border : transparent;
+
+	align-self: center;
+}
+
+.mapicon
+{
+	background-color: #F2F2F2;
+	display: flex;
+	height:50px;
+	padding-top:15px;
+	width:55px;
+	font-size:18px;
+	justify-content: center;
+	border-radius: 15px 0 0 15px;
+}
+

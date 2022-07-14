@@ -3,5 +3,107 @@
 
 /* header*/
 
+header {
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+    
+  }
+
+.logo_booki
+{
+    margin-left: 30%;
+	align-items: center; 
+	height: 85px;
+}
+
+.menu
+{
+    
+	display: flex;
+	font-weight: 500;
+    justify-content:space-evenly
+}
+
+nav li a:hover
+{
+    border-top:none;
+	border-bottom: 3px solid #0065FC;;
+    color: #0065FC; 
+	padding:15px;
+    border-
+}
 
 
+
+
+
+/* searchbar */
+.searchbar 
+{
+
+	margin-left: 15px;
+	
+}
+
+
+.research_button
+
+{
+display: none;
+
+}
+
+.glass
+{
+color: white;
+display:flex;
+width:50px;
+height:50px;
+justify-content: center;
+background-color: #0065FC;
+padding-top:15px;
+border-radius: 15px 15px 15px 15px;
+font-size:18px;
+
+}
+
+.inputsearch
+
+{
+	display: flex;
+	height:50px;
+	width: 200px;
+	font-size: 18px;
+	writing-mode: horizontal-tb;
+	border:0.5px solid #F2F2F2
+	
+	
+}
+
+.placeholder
+{
+	padding-left:10px;
+	width:240px;
+	font-weight: bold;
+	color:black;
+	border:#F2F2F2;
+	outline:none;
+	
+	
+}
+
+
+
+
+.mapicon
+{
+	background-color: #F2F2F2;
+	display: flex;
+	height:50px;
+	padding-top:15px;
+	width:55px;
+	font-size:18px;
+	justify-content: center;
+	border-radius: 15px 0 0 15px;
+}
