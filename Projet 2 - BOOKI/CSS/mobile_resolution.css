@@ -1,20 +1,7 @@
-/* For mobile resolutions / 
+/* For mobile resolutions */ 
 
 
 /* header*/
 
-.menu_list a
-{
-	padding:20px;
-	text-decoration: none;
-	font-size:24px;
-	color: initial
-}
 
-.menu_list a:hover
-{
-color: #0065FC;
-border-bottom: 5px solid #0065FC;
-border-top:transparent;
-}
 

@@ -4,21 +4,26 @@
 
 * 
 {
-	box-sizing: border-box;
+	box-sizing: border-box ;
 	font-family: 'Raleway', sans-serif; /* Custom font + sans-serif pour affichage si incompatibilité avec custom font*/
-	
+    list-style-type: none ;
+    text-decoration: none ;
+	margin: 0;
+    padding: 0;
 }
+
+
 
 /* Test zone  */
 main {
-	width: 90%;
-	max-width: 2560px;
+	width: 98%;
+	max-width: 1400px;
 	margin: auto;
   }
 
 footer {
-	width: 90%;
-	max-width: 2560px;
+	width: 98%;
+	max-width: 1400px;
 	margin: auto;
   }
 
@@ -28,44 +33,41 @@ footer {
 /*header*/
 
 header {
-	width: 90%;
-	max-width: 2560px;
+	width: 98%;
+	max-width: 1400px;
 	margin: auto;
-	display:flex;
+	display: flex;
 	justify-content: space-between;
-	align-items: center;
   }
 
 .logo_booki
 {
-	margin-top:50px;
-	height:75px;
-	width:150px
-	
+		padding-top: 25px;
+        padding-left: 10px; 
+		height: 85px;
 }
 
 .menu
 {
-	margin-top:50px;
-	list-style-type: none;
-	display:flex;
-	justify-content: flex-end;
-	
-	
-	
+	display: flex;
+	font-weight: 500;
 }
-.menu_list a
+
+.menu_list
 {
-	padding:20px;
-	text-decoration: none;
-	font-size:24px;
-	color: initial
+	width: 200px;
+	text-align: center;
+	padding-top: 30px;
 }
 
-.menu_list a:hover
+nav li a 
 {
-color: #0065FC;
-border-top: 5px solid #0065FC;
+	text-decoration:none;
+    color: black;
 }
-
-
+nav li a:hover
+{
+	border-top: 3px solid #0065FC;;
+        color: #0065FC; 
+		padding:40px;
+}
