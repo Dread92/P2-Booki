@@ -1,15 +1,6 @@
+@media screen and (max-width: 992px){
 
 
-
-
-
-/* For mobile resolutions */ 
-
-
-
-/* header*/
-@media screen and (max-width: 768px)
-{
 
 
 header {
@@ -31,17 +22,17 @@ nav
 {
 display: flex;
 flex-direction: row;
-flex-direction: row-reverse;
+justify-content: center;
+
 
 }
 
 nav li a:hover
 {
     border-top:none;
-	border-bottom: 4px solid #0065FC;;
+	border-bottom: 4px solid #0065FC;
     color: #0065FC; 
-	padding:15px;
-   
+	padding:15px;   
 }
 
 
@@ -51,7 +42,7 @@ nav li a:hover
 nav li a 
 {
     display: flex;
-   justify-content: center;
+    justify-content:space-around;
     border-bottom: 4px solid #F2F2F2;
     padding: 15px
 }
