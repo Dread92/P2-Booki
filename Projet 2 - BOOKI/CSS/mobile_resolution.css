@@ -34,6 +34,15 @@
 		
 		
 	} 
+
+	nav ul
+
+	{
+	display: flex;
+	justify-content: center;
+
+	
+	}
 	
 	nav li a:hover
 	{

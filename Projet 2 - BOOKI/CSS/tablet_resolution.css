@@ -18,7 +18,7 @@ header img
 
 nav
 {
-	
+
 
 }
 
@@ -44,11 +44,11 @@ nav li a:hover
 	   
 }
 
-.menu_list
+nav ul
 
 {
-
-
+display: flex;
+justify-content: center;
 
 	
 }
