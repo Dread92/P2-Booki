@@ -1,51 +1,58 @@
 @media screen and (max-width: 992px){
 
 
+header{
 
-
-header {
 	
-	display: flex;
-	flex-direction: column;
-    
-    
-  }
+	display: block;
+	
+	border-bottom: 4px solid #F2F2F2;
+	
+}
 
-  .logo_booki
-  {
-	 display: flex;	 
-	 justify-content: center;
-	  height: 100px
-  }
-  
+header img
+{
+	display:block;
+	margin: auto;
+}
+
 nav
 {
-display: flex;
-flex-direction: row;
-justify-content: center;
-
+	
 
 }
+
+
+nav li a 
+{
+   
+    justify-content:space-between;
+	
+
+   
+	
+} 
 
 nav li a:hover
 {
     border-top:none;
 	border-bottom: 4px solid #0065FC;
     color: #0065FC; 
-	padding:15px;   
+	padding:15px;
+	
+	
+	   
 }
 
+.menu_list
 
-
-
-
-nav li a 
 {
-    display: flex;
-    justify-content:space-around;
-    border-bottom: 4px solid #F2F2F2;
-    padding: 15px
+
+
+
+	
 }
+
 
 
 

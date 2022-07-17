@@ -12,51 +12,38 @@
 {
 
 
-header {
+	header{
+
+		width:98%;
+		display: block;
+		margin : 0px ;
+		border-bottom: 4px solid #F2F2F2;
+		
+	}
 	
-	display: flex;
-	flex-direction: column;
-    
-    
-  }
-
-  .logo_booki
-  {
-	 display: flex;	 
-	 justify-content: center;
-	  height: 100px
-  }
-  
-nav
-{
-display: flex;
-flex-direction: row;
-flex-direction: row-reverse;
-
-}
-
-nav li a:hover
-{
-    border-top:none;
-	border-bottom: 4px solid #0065FC;;
-    color: #0065FC; 
-	padding:15px;
-   
-}
-
-
-
-
-
-nav li a 
-{
-    display: flex;
-   justify-content: center;
-    border-bottom: 4px solid #F2F2F2;
-    padding: 15px
-}
-
-
+	header img
+	{
+		display:block;
+		margin: auto;
+	}
+	
+	nav li a 
+	{
+	   
+		justify-content:space-between;
+		
+		
+	} 
+	
+	nav li a:hover
+	{
+		border-top:none;
+		border-bottom: 4px solid #0065FC;
+		color: #0065FC; 
+		padding:15px;
+		
+		   
+	}
 
 
 /* searchbar */

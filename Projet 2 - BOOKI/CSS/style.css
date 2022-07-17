@@ -19,13 +19,13 @@
 /* Test zone  */
 main {
 	width: 98%;
-	max-width: 1400px;
+	max-width: 2500px;
 	margin: auto;
   }
 
 footer {
 	width: 98%;
-	max-width: 1400px;
+	max-width: 2500px;
 	margin: auto;
   }
 
@@ -37,8 +37,7 @@ footer {
 
 header {
 	width: 98%;
-	max-width: 1400px;
-	margin: auto;
+	max-width: 2500px;
 	display: flex;
 	justify-content: space-between;
   }
@@ -58,6 +57,7 @@ header {
 
 .menu_list
 {
+	
 	width: 200px;
 	text-align: center;
 	padding-top: 30px;
