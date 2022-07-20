@@ -17,11 +17,6 @@ header img
 	margin: auto;
 }
 
-nav
-{
-
-
-}
 
 
 nav li a 
@@ -135,7 +130,6 @@ font-size:18px;
 .filters
 {
 	flex-direction: column;
-	justify-content: space-around;
 }
 
 
