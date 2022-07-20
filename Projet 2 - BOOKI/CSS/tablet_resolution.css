@@ -129,4 +129,14 @@ font-size:18px;
 }
 
 
+/* filters */
+
+
+.filters
+{
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
 }
