@@ -130,7 +130,28 @@ font-size:18px;
 .filters
 {
 	flex-direction: column;
+	align-items: flex-start;
+	
 }
 
 
+.filterrow
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	flex-direction: row;
+}
+
+
+.filterrowmargin 
+{
+	margin-top: 10px;
+}
+
+
+}
+.popularsection h2
+{
+	
 }
