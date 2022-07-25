@@ -11,21 +11,18 @@
     padding: 0;
 }
 
-.stars
-{
-	padding-bottom:10px;
-}
+
 
 /* Test zone  */
 main {
 	width: 100%;
-	max-width: 2000px;
+	max-width: 1800px;
 	margin: auto;
   }
 
 footer {
 	width: 100%;
-	max-width: 2000px;
+	max-width: 1800px;
 	margin: auto;
   }
 
@@ -37,7 +34,7 @@ footer {
 
 header {
 	width: 100%;
-	max-width: 2000px;
+	max-width: 1800px;
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
@@ -291,22 +288,11 @@ nav li a:hover
   .accomodationsize
   {
 	flex: 2;
-	height:900px;
+	height:850px;
 	margin-right:20px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
   }
-
-  .popularsize
-  {
-	flex: 1;
-	height:900px;
-	margin-left:20px;
-	border-radius: 10px;
-	background-color: #F2F2F2;
-
-  }
-
 
 
   .accomodationtitle
@@ -427,4 +413,109 @@ nav li a:hover
 .greystar
 {
 	color: lightgray;
+}
+
+.stars
+{
+	padding-bottom:10px;
+}
+
+
+/* Popular */
+
+
+.popularsize
+{
+  	flex: 1;
+ 	 height:850px;
+  	margin-left:20px;
+  	border-radius: 10px;
+  	background-color: #F2F2F2;
+	  
+ 	 width: 90%;
+	margin-left: 0;
+	 padding: 1%;
+
+}
+
+
+
+.mostpopularacc
+{
+
+margin-top:0px;
+}
+
+
+
+.populartitle
+{
+  	display: flex;
+  	justify-content: space-between;
+ 	align-items: center;
+	margin-bottom:15px;
+	padding-left:25px;
+	padding-top:20px;
+	
+}
+
+.popularimg
+{
+  object-fit: cover;
+  width: 33%;
+  height: 185px;
+  border-radius: 15px 0 0 15px;
+}
+
+.popularimgstretch
+{
+	object-fit: cover;
+	width: 44%;
+	height: 185px;
+	border-radius: 15px 0 0 15px;
+
+}
+.popularcard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  margin-left:25px;
+  margin-right:25px;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.12);
+  transition:  500ms ease;
+  
+
+}
+
+.popularcard:hover
+{
+	transform: translate(10px, -10px);
+	background-color: #DEEBFF;
+
+	transition:  500ms ease;
+}
+
+.blackstar
+{
+	font-size: 25px;
+	padding-right: 25px
+}
+
+.descriptionpopular
+{
+	padding-bottom:85px;
+	padding-left:15px;
+}
+
+
+.starspopular
+{
+	margin-left:15px;
+	margin-bottom: 15px;
 }
