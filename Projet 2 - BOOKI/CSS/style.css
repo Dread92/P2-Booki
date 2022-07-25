@@ -13,19 +13,19 @@
 
 .stars
 {
-	color:#0065FC;
+	padding-bottom:10px;
 }
 
 /* Test zone  */
 main {
 	width: 100%;
-	max-width: 2500px;
+	max-width: 2000px;
 	margin: auto;
   }
 
 footer {
 	width: 100%;
-	max-width: 2500px;
+	max-width: 2000px;
 	margin: auto;
   }
 
@@ -37,7 +37,7 @@ footer {
 
 header {
 	width: 100%;
-	max-width: 2500px;
+	max-width: 2000px;
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
@@ -218,7 +218,7 @@ nav li a:hover
 	padding-right:15px;
 	display: flex;
 	font-weight: bolder;
-	
+	transition: 200ms;
 }
 
 .filtertext:hover
@@ -226,6 +226,9 @@ nav li a:hover
 {
 	color:#0065FC;
 	cursor: pointer;
+	transform: scale(1.1);
+	font-size: 16px;
+	transition:  200ms ease;
 	
 }
 
@@ -280,12 +283,15 @@ nav li a:hover
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin-top: 50px;
+	margin-left:20px;
+	margin-right: 20px;
 }
 
   .accomodationsize
   {
 	flex: 2;
-	height:650px;
+	height:900px;
 	margin-right:20px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
@@ -294,20 +300,30 @@ nav li a:hover
   .popularsize
   {
 	flex: 1;
-	height:650px;
+	height:900px;
 	margin-left:20px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
 
   }
 
+
+
+  .accomodationtitle
+  {
+	padding-top:25px;
+    margin-left:30px;
+  }
+
   .accomodationimg
   {
+	display: flex;
 	object-fit: cover;
 	align-items: center;
 	width:100%;
-	height:120px;
+	height:175px;
 	border-radius: 15px 15px 0 0;
+	
 
 
   }
@@ -322,6 +338,7 @@ nav li a:hover
   	flex-direction: column;
   	justify-content: space-around;
 	
+	
   }
 
   .firstline
@@ -329,6 +346,7 @@ nav li a:hover
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 10px;
   }
 
   .secondline
@@ -336,14 +354,77 @@ nav li a:hover
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
+	margin-top:10px;
   }
 
   .whitebackground
   {
 	width:30%;
 	background-color: white;
-	padding: 1%;
+	padding: 0.5%;
 	border-radius: 20px;
-	height: auto;
+	height:auto ;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.12);
+	margin-right: 25px;
+	margin-left:25px;
+	transition: 500ms;
+	
   }
+
+  .whitebackground:hover
+  {
+	transform: translate(-10px, -10px);
+	background-color: #DEEBFF;
+	font-size: 16px;
+	transition:  500ms ease;
+	
+	
+
+  }
+
+  .descriptioncard
+  {
+	
+	padding-left:10px;
+	width:90%;
+	font-weight: 500;
+	
+
+
+  }
+
+  .descriptioncard p 
+  {
+	margin-bottom: 5px;
+	margin-top:4px;
+  }
+  .descriptioncard h3
+  {
+	margin-top:15px;
+	margin-bottom:1px;
+  }
+
+  .displaymore
+  {
+	font-size: larger;
+	font-weight:bolder;
+	margin-left: 30px;
+	padding-top:25px;
+	cursor: pointer;
+  }
+
+  span
+  
+{
+	font-weight: bold;
+}
+
+.bluestar
+{
+	color:#0065FC
+}
+
+.greystar
+{
+	color: lightgray;
+}
