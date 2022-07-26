@@ -7,7 +7,7 @@ header{
 	display: block;
 	
 	border-bottom: 4px solid #F2F2F2;
-	width: 100%;
+	
 	
 }
 
@@ -150,8 +150,119 @@ font-size:18px;
 }
 
 
-}
-.popularsection h2
+
+/* Accomodation+Popular */
+
+.separatedblocks
 {
+display: flex;
+flex-direction: column-reverse;
+width:100%;
+margin-left:0;
+
+}
+
+
+.firstline
+{
+	display: flex;
+	flex-direction: column;
+	width:95%;
+	margin-bottom:auto;
+}
+
+.secondline
+{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	
 	
 }
+
+
+.whitebackground
+{
+	width: 95%
+}
+
+
+.accomodations
+{
+	width:95%;
+	background-color: white;
+	
+}
+
+.popularsize
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	padding:0;
+	border-radius: 0;
+	
+}
+
+main  
+{
+	width:100%;
+}
+
+.starspopular
+
+{
+	margin-top:0;
+}
+
+.starspopular2
+{
+	margin-top: 0;
+}
+
+.whitebackground
+{
+	margin-bottom: 30px;
+	margin-left:65px;
+}
+
+
+.displaymore
+{
+	margin-top:0;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
