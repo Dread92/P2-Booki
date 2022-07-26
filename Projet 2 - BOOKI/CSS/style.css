@@ -478,8 +478,7 @@ margin-top:0px;
 .popularcard
 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: nowrap;
   background-color: white;
   height: auto;
   margin-left:25px;
@@ -509,13 +508,16 @@ margin-top:0px;
 
 .descriptionpopular
 {
-	padding-bottom:85px;
+	margin-bottom:75px;
 	padding-left:15px;
 }
 
 
 .starspopular
 {
+	display: flex;
 	margin-left:15px;
-	margin-bottom: 15px;
+	padding-bottom: 0px;
+	align-items: center;
+
 }
