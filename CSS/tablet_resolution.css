@@ -235,6 +235,15 @@ main
 
 
 
+/*activities*/ 
+
+.activities
+{
+	display: flex;
+	flex-direction: column;
+	width: 90%
+}
+
 
 
 
