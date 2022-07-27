@@ -222,7 +222,8 @@ cursor: pointer;
 	width: 53px;
 	border-radius:30px;
 	color:#0065FC;
-	
+	position:relative;
+	right:2px;
 	
 }
 
