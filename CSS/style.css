@@ -7,11 +7,14 @@
 	font-family: 'Raleway', sans-serif; /* Custom font + sans-serif pour affichage si incompatibilité avec custom font*/
     list-style-type: none ;
     text-decoration: none ;
-	margin: 0;
+	margin-top: 0;
     padding: 0;
 }
 
-
+body 
+{
+	margin-top:25px;
+}
 
 /* Test zone  */
 main {
