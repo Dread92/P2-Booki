@@ -237,32 +237,36 @@ main
 
 /*activities*/ 
 
-.activities
+.activitycontainer
 {
 	display: flex;
 	flex-direction: column;
-	width: 90%
+	height:10%;
+}
+
+
+.largeactivitycard
+{
+	width:95%;
+}
+
+.smallactivitycontainer{
+	width:95%;
+}
+
+
+.spaceactivity2
+{
+	margin-top: 0;
+	
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.spaceactivity4
+{
+	margin-top:0;
+}
 
 
 
