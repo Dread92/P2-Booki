@@ -250,6 +250,15 @@ main
 	margin-left: 50px;
 }
 
+.popularimgstretch
+{
+	object-fit: cover;
+	width: 44%;
+	height: 185px;
+	border-radius: 15px 0 0 15px;
+
+
+}
 
 
 
