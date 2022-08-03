@@ -1,5 +1,8 @@
 @media screen and (max-width: 992px){
-
+body 
+{
+	padding:0
+}
 
 header{
 
@@ -28,6 +31,8 @@ nav li a
    
 	
 } 
+
+
 
 nav li a:hover
 {
@@ -132,6 +137,7 @@ font-size:18px;
 	flex-direction: column;
 	align-items: flex-start;
 	
+	
 }
 
 
@@ -141,15 +147,20 @@ font-size:18px;
 	align-items: center;
 	margin-bottom: 10px;
 	flex-direction: row;
+	
 }
 
 
 .filterrowmargin 
 {
 	margin-top: 10px;
+	
 }
 
-
+.filterbuttons
+{
+	margin-right:10px;
+}
 
 /* Accomodation+Popular */
 
@@ -189,7 +200,7 @@ margin-left:0;
 
 .accomodations
 {
-	width:95%;
+	width:100%;
 	background-color: white;
 	
 }
@@ -241,18 +252,61 @@ main
 {
 	display: flex;
 	flex-direction: column;
-	height:10%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+    width: 95%;
 }
 
+.smallactivitycontainer
+ {
+    width: 100%;
+    height: auto;
+	margin-bottom: 50px;
+  }
 
-.largeactivitycard
-{
-	width:95%;
-}
+  .largeactivitycard {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 
-.smallactivitycontainer{
-	width:95%;
-}
+
+  .activityimg1
+  {
+	height:200px;
+  }
+
+
+  .activityimg2
+  {
+	height:200px;
+  }
+
+
+  .activityimg3
+  {
+	height:200px;
+  }
+
+
+
+  .activityimg4
+  {
+	height:200px;
+  }
+
+
+  .activityimg5
+  {
+	height:200px;
+  }
+
+  
+  .activityimg6
+  {
+	height:200px;
+  }
 
 
 .spaceactivity2
@@ -270,6 +324,24 @@ main
 
 
 
+
+
+
+
+/*FOOTER RESPONSIVE*/
+
+
+.footerblock
+{
+	flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+	height:auto
+}
+
+.firstcolumn
+{
+	margin-left:0;
 }
 
 
@@ -279,3 +351,15 @@ main
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+}
