@@ -17,10 +17,18 @@
 		width:100%;
 		display: block;
 		margin : 0px ;
-		border-bottom: 4px solid #F2F2F2;
+		
 		
 	}
 	
+	
+	nav
+{
+	border-bottom: 4px solid #F2F2F2;
+
+}
+
+
 	header img
 	{
 		display:block;
@@ -49,7 +57,7 @@
 		border-top:none;
 		border-bottom: 4px solid #0065FC;
 		color: #0065FC; 
-		padding:15px;
+		padding:16px;
 		
 		   
 	}

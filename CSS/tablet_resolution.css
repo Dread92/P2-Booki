@@ -9,7 +9,6 @@ header{
 	
 	display: block;
 	
-	border-bottom: 4px solid #F2F2F2;
 	
 	
 }
@@ -20,7 +19,11 @@ header img
 	margin: auto;
 }
 
+nav
+{
+	border-bottom: 4px solid #F2F2F2;
 
+}
 
 nav li a 
 {
@@ -39,7 +42,7 @@ nav li a:hover
     border-top:none;
 	border-bottom: 4px solid #0065FC;
     color: #0065FC; 
-	padding:15px;
+	padding-bottom:16px;
 	
 	
 	   
@@ -50,11 +53,14 @@ nav ul
 {
 display: flex;
 justify-content: center;
-
+width:100%;
 	
 }
 
-
+nav ul li
+{
+	width:100%
+}
 
 
 
@@ -270,9 +276,12 @@ main
 	margin-bottom: 50px;
   }
 
+
+
   .largeactivitycard {
     width: 100%;
     margin-bottom: 50px;
+	height:auto;
   }
 
 
