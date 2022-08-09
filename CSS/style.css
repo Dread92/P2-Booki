@@ -372,7 +372,7 @@ cursor: pointer;
 	padding: 0.5%;
 	border-radius: 20px;
 	height:auto ;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.12);
+	box-shadow: 5px 5px 5px 1px #f2f2f2;
 	margin-right: 25px;
 	margin-left:25px;
 	transition: 500ms;
@@ -512,7 +512,7 @@ margin-top:0px;
   padding: 1% 0 1% 1%;
   border-radius: 20px;
   margin-bottom: 25px;
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.12);
+  box-shadow: 5px 5px 5px 1px rgb(235, 228, 228);
   transition:  500ms ease;
   cursor:pointer	
   

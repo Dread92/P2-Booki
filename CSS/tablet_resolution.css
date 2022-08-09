@@ -28,7 +28,10 @@ header img
 	cursor:pointer;
 	padding-left:0;
 }
-	
+nav:hover
+{
+	color:#0065FC
+}
 
 .menu_list{
 	
