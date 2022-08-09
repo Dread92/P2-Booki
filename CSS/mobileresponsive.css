@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
 body 
 {
 	padding:0
@@ -23,7 +23,6 @@ header img
 .menu
 {
 	display: flex;
-	
 	justify-content: space-between;
 	cursor:pointer;
 	padding-left:0;
@@ -185,7 +184,7 @@ margin-left:0;
 
 .popularcard:hover
 {
-	transform: scale(1.08);
+	transform: scale(1.02);
 	background-color: #DEEBFF;
 	transition:  200ms ease;
 }
@@ -269,7 +268,7 @@ main
 
 .whitebackground:hover
 {
-	transform: scale(1.08);
+	transform: scale(1.02);
 	background-color: #DEEBFF;
 	transition:  200ms ease;
 }
@@ -326,41 +325,59 @@ main
 	height:auto;
   }
 
+  .smallactivitycard:hover
+  {
+	  transform: scale(1.02);
+	  background-color: #DEEBFF;
+	  transition:  200ms ease;
+  }
+
+
+  .largeactivitycard:hover
+  {
+	transform: scale(1.02);
+	background-color: #DEEBFF;
+	transition:  200ms ease;
+	cursor:pointer;	
+  }
+
+
+
 
   .activityimg1
   {
-	height:200px;
+	height:150px;
   }
 
 
   .activityimg2
   {
-	height:200px;
+	height:150px;
   }
 
 
   .activityimg3
   {
-	height:200px;
+	height:150px;
   }
 
 
 
   .activityimg4
   {
-	height:200px;
+	height:150px;
   }
 
 
   .activityimg5
   {
-	height:200px;
+	height:150px;
   }
 
   
   .activityimg6
   {
-	height:200px;
+	height:150px;
   }
 
 
@@ -389,9 +406,9 @@ main
 
 .firstcolumn
 {
-	margin-top: 25px;
+	margin-top: 5%;
 	margin-left:0;
-	margin-bottom: 25px;
+	margin-bottom: 5%;
 }
 .thirdcolumn
 {
@@ -401,11 +418,6 @@ main
 }
 
 
-html, body
-{
-	margin:0;
-	padding:0;
-}
 
 
 
