@@ -15,18 +15,14 @@
 	header{
 
 		width:100%;
-		display: block;
+		display:inline-block ;
 		margin : 0px ;
 		
 		
 	}
 	
 	
-	nav
-{
-	border-bottom: 4px solid #F2F2F2;
 
-}
 
 
 	header img
@@ -35,31 +31,14 @@
 		margin: auto;
 	}
 	
-	nav li a 
-	{
-	   
-		justify-content:space-between;
-		
-		
-	} 
-
-	nav ul
-
-	{
-	display: flex;
-	justify-content: center;
+	
 
 	
-	}
 	
 	nav li a:hover
 	{
 		border-top:none;
-		border-bottom: 4px solid #0065FC;
-		color: #0065FC; 
-		padding:16px;
 		
-		   
 	}
 
 

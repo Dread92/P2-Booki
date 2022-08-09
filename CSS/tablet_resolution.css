@@ -19,48 +19,41 @@ header img
 	margin: auto;
 }
 
-nav
+
+.menu
 {
+	display: flex;
+	
+	justify-content: space-between;
+	cursor:pointer;
+	padding-left:0;
+}
+	
+
+.menu_list{
+	
+	width: 100%;
+	justify-content: space-around;
 	border-bottom: 4px solid #F2F2F2;
+	padding-bottom: 20px;
+	
+	
+	
+	
+}
+.menu_list:hover{
+	
+	border-top: none;
+        border-bottom: 3px solid #0065FC;
 
 }
-
-nav li a 
-{
-   
-    justify-content:space-between;
-	
-
-   
-	
-} 
-
-
 
 nav li a:hover
 {
-    border-top:none;
-	border-bottom: 4px solid #0065FC;
-    color: #0065FC; 
-	padding-bottom:16px;
-	
-	
-	   
+	border-top:none;
 }
+ 
 
-nav ul
-
-{
-display: flex;
-justify-content: center;
-width:100%;
-	
-}
-
-nav ul li
-{
-	width:100%
-}
 
 
 
@@ -309,7 +302,9 @@ main
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	
+	padding-left:7%;
+	padding-right:7%;
+    width: 100%;
 }
 
 .smallactivitycontainer
@@ -366,13 +361,6 @@ main
 
 
 
-  .activities
-
-  {
-	width:100%;
-	  margin-top: 25px;
-	  margin-bottom: 10px;
-	}
 
 
 
