@@ -63,8 +63,8 @@ nav li a:hover
 /* searchbar */
 .searchbar 
 {
-padding-top:5%;
-padding-right: 5%;
+display: flex;
+justify-content: center;
 	
 }
 
@@ -218,7 +218,8 @@ margin-left:0;
 
 .whitebackground
 {
-	width: 95%
+	width: 95%;
+	box-shadow: 5px 5px 5px 1px #f2f2f2
 }
 
 .accomodationsize
