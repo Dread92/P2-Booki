@@ -79,48 +79,7 @@
 display: none;
 
 }
-/*
-.glass
-{
-color: white;
-display:flex;
-width:50px;
-height:50px;
-justify-content: center;
-background-color: #0065FC;
-padding-top:15px;
-border-radius: 15px 15px 15px 15px;
-font-size:18px;
 
-}
-
-.inputsearch
-
-{
-	display: flex;
-	height:50px;
-	width: 200px;
-	font-size: 18px;
-	writing-mode: horizontal-tb;
-	border:0.5px solid #F2F2F2
-	
-	
-}
-/*
-.placeholder
-{
-	padding-left:10px;
-	width:240px;
-	font-weight: bold;
-	color:black;
-	border:#F2F2F2;
-	outline:none;
-	background-color: white;
-
-	
-}
-
-*/
 
 
 .mapicon

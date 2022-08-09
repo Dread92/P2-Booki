@@ -194,6 +194,14 @@ margin-left:0;
 	transition:  200ms ease;
 }
 
+.accomodationtitle
+{
+  padding-top:25px;
+  margin-left:5%;
+  margin-bottom: 5%;
+}
+
+
 .firstline
 {
 	display: flex;
@@ -381,7 +389,7 @@ main
 	flex-direction: column;
     align-items: flex-start;
     padding-left: 20px;
-	height:auto;
+	height:100%;
 	margin-top:0;
 	
 	
@@ -389,10 +397,16 @@ main
 
 .firstcolumn
 {
+	margin-top: 25px;
 	margin-left:0;
+	margin-bottom: 25px;
 }
+.thirdcolumn
+{
+	margin-bottom: 0;
+	margin-right: 15%;
 
-
+}
 
 
 html, body
