@@ -3,7 +3,7 @@
 
 
 
-/* For mobile resolutions */ 
+/* For tablet resolutions */ 
 
 
 
@@ -12,14 +12,6 @@
 {
 
 
-	header{
-
-		width:100%;
-		display:inline-block ;
-		margin : 0px ;
-		
-		
-	}
 	
 	
 
@@ -32,7 +24,14 @@
 	}
 	
 	
+/*filters*/
 
+.filters
+{
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
 	
 	
 	
@@ -40,43 +39,40 @@
 
 /* searchbar */
 
-
-
-.research_button
-
+.searchbar
 {
-display: none;
-
-}
-
-
-
-.mapicon
-{
-	background-color: #F2F2F2;
 	display: flex;
-	height:50px;
-	padding-top:15px;
-	width:55px;
-	font-size:18px;
 	justify-content: center;
-	border-radius: 15px 0 0 15px;
 }
 
+/*accomodations+popular*/
+.separatedblocks
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.accomodationsize
+{
+	margin-bottom:5%;
+	margin-right:0;
+}
 
 
 /*activity mobile*/
 .activitycontainer
 {
-	display: flex;
-	flex-direction: column;
-	height: auto;
-	justify-content: center;
-	align-items: center;
-	padding-left:7%;
-	padding-right:7%;
-    width: 100%;
+padding-left:5%;
+padding-right:5%;
 }
+
+.titleactivitiesmobile
+{
+	padding-left:5%;
+}
+
+
+
 }
 
 
