@@ -104,8 +104,9 @@ display: none;
 	height: auto;
 	justify-content: center;
 	align-items: center;
-	padding-left: 10%;
-    width: 90%;
+	padding-left:5%;
+	padding-right:5%;
+    width: 100%;
 }
 }
 
