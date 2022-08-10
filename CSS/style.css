@@ -92,6 +92,7 @@ nav li a:hover
 	padding-top:14px;
 	padding-left:14px;
 	margin-bottom: 0;
+	width:95%;
 }
 
 .main_title p
@@ -110,7 +111,7 @@ nav li a:hover
 {
 	padding-left: 15px;
 	display: flex;
-	
+	width:100%;
 	
 	
 }
