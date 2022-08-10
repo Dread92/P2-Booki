@@ -51,7 +51,7 @@ header
 	
 	width: 200px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 0;
 }
 nav li a
 {
@@ -62,7 +62,6 @@ nav li a:hover
 {
 	border-top: 3px solid #0065FC;;
     color: #0065FC; 
-	padding:40px;
 	border-bottom:none;
 }
 /*Main*/
