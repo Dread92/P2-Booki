@@ -1,6 +1,6 @@
 /* For tablet resolutions, breakpoint at 992px */ 
-/* header*/
 @media screen and (min-width:769px) and (max-width: 992px)
+/* header*/
 {
 header img
 {

@@ -1,5 +1,6 @@
 /* for mobile resolution, breakpoint at 768px*/
 @media screen and (max-width: 768px){
+/*Global settings*/
 body 
 {
 	padding:0
