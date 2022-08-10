@@ -1,6 +1,4 @@
-
-/* Global */
-
+/* Global settings*/
 * 
 {
 	box-sizing: border-box ;
@@ -10,52 +8,44 @@
 	margin-top: 0;
     padding: 0;
 }
-
 body 
 {
 	margin-top:15px;
 }
 
-/* Test zone  */
-main {
+main
+ {
 	width: 100%;
 	max-width: 1800px;
 	margin: auto;
   }
 
-footer {
+footer
+ {
 	width: 100%;
 	max-width: 1800px;
 	margin: auto;
   }
-
-/* _____________________________________________________*/
-
-
 /*header*/
-
-
-header {
+header 
+{
 	width: 100%;
 	max-width: 1800px;
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
-  }
-
+}
 .logo_booki img
 {
 	padding-top: 25px;
     padding-left: 45px; 
 	height: 100px;
 }
-
 .menu
 {
 	display: flex;
 	font-weight: 500;
 }
-
 .menu_list
 {
 	
@@ -63,13 +53,10 @@ header {
 	text-align: center;
 	padding-top: 30px;
 }
-
-
 nav li a
 {
 	text-decoration:none;
     color: black;
-	
 }
 nav li a:hover
 {
@@ -78,13 +65,8 @@ nav li a:hover
 	padding:40px;
 	border-bottom:none;
 }
-
-
-
+/*Main*/
 /*Main title*/
-
-
-
 .main_title h1 
 {
 	font-size: 23px;
@@ -94,35 +76,24 @@ nav li a:hover
 	margin-bottom: 0;
 	width:95%;
 }
-
 .main_title p
 {
 	font-weight: 500;
 	padding-left:14px;
-	margin-top: 8px;
-	
+	margin-top: 8px;	
 }
-
-
 /* Searchbar */
-
-
 .searchbar 
 {
 	padding-left: 15px;
 	display: flex;
-	width:100%;
-	
-	
+	width:100%;	
 }
-
 .glass
 {
 	display: none;
 }
-
 .inputsearch
-
 {
 	display: flex;
 	height:50px;
@@ -130,10 +101,7 @@ nav li a:hover
 	font-size: 18px;
 	writing-mode: horizontal-tb;
 	border:0.5px solid #F2F2F2
-	
-	
 }
-
 .placeholder
 {
 	padding-left:10px;
@@ -142,10 +110,7 @@ nav li a:hover
 	color:black;
 	border:#F2F2F2;
 	outline:none;
-	
-	
 }
-
 .research_button
 {
 	color:white;
@@ -155,10 +120,8 @@ nav li a:hover
 	background-color: #0065FC;
 	border-radius: 0 15px 15px 0;
 	border : transparent;
-
 	align-self: center;
 }
-
 .mapicon
 {
 	background-color: #F2F2F2;
@@ -170,25 +133,19 @@ nav li a:hover
 	justify-content: center;
 	border-radius: 15px 0 0 15px;
 }
-
 /*filters*/
-
 .filters
 {
-
 	display: flex;
 	align-items: center;
 	margin-top: 25px;
 	margin-bottom:25px;
 	margin-left:15px;	
 }
-
 .filters h3
 {
 	margin-right: 25px;	
 }
-
-
 .filterbuttons
 {
 	display:flex;
@@ -198,25 +155,15 @@ nav li a:hover
 	height:55px;
 	border-radius: 30px;
 	margin-right:30px ;
-	transition:  200ms ease;
-	
-	
+	transition:  200ms ease;	
 }
-
-
-
 .filterbuttons:hover
 {
-
-cursor: pointer;
+	cursor: pointer;
 	transform: scale(1.1);
 	font-size: 16px;
 	transition:  200ms ease;
-
 }
-
-
-
 .filtericon
 {
 	display: flex;
@@ -228,11 +175,8 @@ cursor: pointer;
 	border-radius:30px;
 	color:#0065FC;
 	position:relative;
-	right:2px;
-	
+	right:2px;	
 }
-
-
 .filtertext
 {
 	padding-left:15px;
@@ -241,27 +185,26 @@ cursor: pointer;
 	font-weight: bolder;
 	transition: 200ms;
 }
-
 .filtertext:hover
-
 {
 	color:#0065FC;
 	cursor: pointer;
 	transform: scale(1.1);
 	font-size: 16px;
 	transition:  200ms ease;
-	
 }
-
+.filterrow
+{
+	display: flex;
+	align-items: center;
+}
+/*Info beneath the filters*/
 .info
 {
-
 	display: flex;
 	align-items: center;
 	margin-left:15px;	
-	
 }
-
 .infoletter
 {
 	display: flex;
@@ -273,101 +216,66 @@ cursor: pointer;
 	width:30px;
 	padding-top: 4px;
 }
-
-
 .infotext
-
 {
 	padding-left:10px;
-	font-weight: 500;
-	
+	font-weight: 500;	
 }
-
-.filterrow
-{
-
-
-	display: flex;
-	align-items: center;
-	
-		
-
-
-}
-
-
-
-
 /*accomodations in Marseille + most popular */
 .separatedblocks
 {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 50px;
-	
+	margin-top: 50px;	
 }
-
-  .accomodationsize
-  {
+/*Accomodations block+card*/
+.accomodationsize
+{
 	flex: 2;
 	height:800px;
 	margin-right:20px;
 	border-radius: 10px;
 	background-color: #F2F2F2;
-  }
-
-
-  .accomodationtitle
-  {
+}
+.accomodationtitle
+{
 	padding-top:25px;
     margin-left:30px;
-  }
-
-  .accomodationimg
-  {
+}
+.accomodationimg
+{
 	display: flex;
 	object-fit: cover;
 	align-items: center;
 	width:100%;
 	height:160px;
 	border-radius: 15px 15px 0 0;
-	
-
-
-  }
-
-
-
-  .accomodations
-  {
+}
+.accomodations
+{
 	padding-left: 20px;
 	padding-right: 20px;
 	display: flex;
   	flex-direction: column;
-  	justify-content: space-around;
-	
-	
-  }
-
-  .firstline
-  {
+  	justify-content: space-around;	
+}
+.firstline
+{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 10px;
-  }
-
-  .secondline
-  {
+}
+.secondline
+{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top:10px;
-  }
-
-  .whitebackground
-  {
+ }
+.whitebackground
+{
 	width:30%;
 	background-color: white;
 	padding: 0.5%;
@@ -377,130 +285,94 @@ cursor: pointer;
 	margin-right: 25px;
 	margin-left:25px;
 	transition: 500ms;
-	cursor:pointer
-	
-  }
-
-  .whitebackground:hover
-  {
+	cursor:pointer	
+}
+.whitebackground:hover
+{
 	transform: translate(-10px, -10px);
 	background-color: #DEEBFF;
 	font-size: 16px;
 	transition:  500ms ease;
-	
-	
-
-  }
-
-  .descriptioncard
-  {
-	
-	
+}
+.descriptioncard
+{
 	padding-left:10px;
 	width:90%;
 	font-weight: 500;
-	
-
-  }
-
-  .descriptioncard p 
-  {
+}
+.descriptioncard p 
+ {
 	margin-bottom: 5px;
 	margin-top:4px;
-  }
-  .descriptioncard h3
-  {
+}
+.descriptioncard h3
+{
 	margin-top:15px;
 	margin-bottom:1px;
-  }
-
-  .displaymore
-  {
+}
+.displaymore
+{
 	font-size: larger;
 	font-weight:bolder;
 	margin-left: 30px;
 	padding-top:25px;
 	cursor: pointer;
-  }
-
-  span
-  
+}
+span 
 {
 	font-weight: bold;
-}
-
+} 
 .bluestar
 {
-	color:#0065FC
+  color:#0065FC
 }
 
 .greystar
 {
-	color: lightgray;
+  color: lightgray;
 }
-
 .stars
 {
 	padding-bottom:10px;
 }
-
-
-/* Popular */
-
-
+/* Popular section */
 .popularsize
 {
-  	flex: 1;
- 	 height:800px;
-  	margin-left:20px;
-  	border-radius: 10px;
-  	background-color: #F2F2F2;
-	  
- 	 width: 90%;
-	margin-left: 0;
-	 padding: 1%;
-
+  flex: 1;
+  height:800px;
+  margin-left:20px;
+  border-radius: 10px;
+  background-color: #F2F2F2; 
+  width: 90%;
+  margin-left: 0;
+  padding: 1%;
 }
-
-
-
 .mostpopularacc
 {
-
 margin-top:0px;
 }
-
-
-
 .populartitle
 {
-  	display: flex;
-  	justify-content: space-between;
- 	
-	margin-bottom:15px;
-	padding-left:25px;
-	padding-top:15px;
-	
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:15px;
+  padding-left:25px;
+  padding-top:15px;	
 }
-
 .popularimg
 {
-	
   object-fit: cover;
   width: 33%;
   height: 185px;
   border-radius: 15px 0 0 15px;
   transition:  500ms ease;
 }
-
 .popularimgstretch
 {
-	object-fit: cover;
-	width: 44%;
-	height: 185px;
-	border-radius: 15px 0 0 15px;
-
-
+  object-fit: cover;
+  width: 44%;
+  height: 185px;
+  border-radius: 15px 0 0 15px;
 }
 .popularcard
 {
@@ -516,60 +388,43 @@ margin-top:0px;
   box-shadow: 5px 5px 5px 1px rgb(235, 228, 228);
   transition:  500ms ease;
   cursor:pointer	
-  
-
 }
-
 .popularcard:hover
 {
-	transform: translate(10px, -10px);
-	background-color: #DEEBFF;
-	transition:  500ms ease;
+  transform: translate(10px, -10px);
+  background-color: #DEEBFF;
+  transition:  500ms ease;
 }
-
 .blackstar
 {
-	font-size: 25px;
-	padding-right: 25px
+font-size: 25px;
+ padding-right: 25px
 }
-
 .descriptionpopular
 {
-	margin-bottom:75px;
-	padding-left:15px;
+margin-bottom:75px;
+padding-left:15px;
 }
-
-
 .starspopular
 {
-	display: flex;
-	margin-left:15px;
-	align-items: center;
-	margin-top: 70px;
-
-
+display: flex;
+margin-left:15px;
+align-items: center;
+margin-top: 70px;
 }
-
 .starspopular2
 {
-	display: flex;
-	margin-left:15px;
-	margin-top: 90px;
-	align-items: center;
+display: flex;
+margin-left:15px;
+margin-top: 90px;
+align-items: center;
 }
-
-
 /* Activities */ 
-
-
 .activities
-
 {
 	margin-top: 50px;
 	margin-bottom: 50px;
-  }
-
-
+}
 .activitycontainer
 {
 	display: flex;
@@ -578,7 +433,6 @@ margin-top:0px;
 	width: 100%;
 	height: 600px;
 }
-
 .largeactivitycard
  {
 	display: flex;
@@ -591,30 +445,23 @@ margin-top:0px;
 	height:600px;
 	transition:  200ms ease;
   }
-
-  .largeactivitycard:hover
-  {
+.largeactivitycard:hover
+{
 	transform: scale(1.08);
 	background-color: #DEEBFF;
 	transition:  200ms ease;
 	cursor:pointer;	
-  }
-
-
-  .smallactivitycontainer 
-
-  {
+}
+.smallactivitycontainer 
+{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 23%;
     height: 600px;
-  }
-
-
-  .smallactivitycard
-  
-  {
+}
+.smallactivitycard
+{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -624,19 +471,15 @@ margin-top:0px;
 	box-shadow: 5px 5px 5px 1px #f2f2f2;
 	transition:  200ms ease;
 	cursor:pointer;	
-  }
-
+}
 .smallactivitycard:hover
 {
 	transform: scale(1.08);
 	background-color: #DEEBFF;
 	transition:  200ms ease;
 }
-
-
-
-
-.activitytitle {
+.activitytitle 
+{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -644,80 +487,58 @@ margin-top:0px;
 	width: 95%;
 	height: auto;
 	padding-top: 1%;
-  }
-
-
-
-
+}
 .spaceactivity2
 {
-	margin-top: 50px;
-	
+	margin-top: 50px;	
 }
-
-
-
 .spaceactivity4
 {
 	margin-top:50px;
 }
-
-  .activityimg1
-  
-  {
+.activityimg1
+{
 	object-fit: cover;
 	width: 100%;
 	height: 540px;
 	border-radius: 15px 15px 0 0;
-  }
-
-
-  .activityimg2 
-  {
+}
+.activityimg2 
+{
 	object-fit: cover;
 	width: 100%;
 	height: 260px;
 	border-radius: 15px 15px 0 0;
-  }
-
-
-  .activityimg3
-   {
+}
+.activityimg3
+{
 	object-fit: cover;
 	width: 100%;
 	height: 160px;
 	border-radius: 15px 15px 0 0;
-  }
-
-  .activityimg4
-   {
+}
+.activityimg4
+{
 	object-fit: cover;
 	width: 100%;
 	height: 540px;
 	border-radius: 15px 15px 0 0;
-  }
-
-
-  .activityimg5 
-  {
+}
+.activityimg5 
+{
 	object-fit: cover;
 	width: 100%;
 	height: 200px;
 	border-radius: 15px 15px 0 0;
-  }
-
-
-
-  .activityimg6
-   {
+}
+.activityimg6
+{
 	object-fit: cover;
 	width: 100%;
 	height: 200px;
 	border-radius: 15px 15px 0 0;
-  }
-
+}
 /*Footer*/
-
 .footerblock
 {
 	display: flex;
@@ -727,32 +548,25 @@ margin-top:0px;
     margin-top: 100px;
 	background-color: #f2f2f2;
 }
-
-
 .firstcolumn
 {
 	margin-left: 5%;
 	height: 150px;
 }
-
 .about
 {
 	text-decoration: none;
 	height: 30px;
 	color: black;
 }
-
 .websitefunct
 {
 	color: black;
 	font-weight: 500;
 }
-
-
 .secondcolumn
 {
 	height: 150px;
-
 }
 .ouraccomodations
 {
@@ -760,14 +574,11 @@ margin-top:0px;
 	height: 30px;
 	color: black;
 }
-
 .thirdcolumn
 {
 	height: 150px;
 	margin-right: 15%;
-
 }
-
 .assistance
 {
 	text-decoration: none;

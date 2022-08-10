@@ -1,78 +1,46 @@
-
-
-
-
-
-/* For tablet resolutions */ 
-
-
-
+/* For tablet resolutions, breakpoint at 992px */ 
 /* header*/
 @media screen and (min-width:769px) and (max-width: 992px)
 {
-
-
-	
-	
-
-
-
-	header img
-	{
-		display:block;
-		margin: auto;
-	}
-	
-	
+header img
+{
+display:block;
+margin: auto;
+}	
 /*filters*/
-
 .filters
 {
-	justify-content: center;
-	flex-wrap: wrap;
-	
+justify-content: center;
+flex-wrap: wrap;	
 }
-	
-	
-	
-
-
 /* searchbar */
-
 .searchbar
 {
-	display: flex;
-	justify-content: center;
+display: flex;
+justify-content: center;
 }
-
 /*accomodations+popular*/
 .separatedblocks
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
 }
 .accomodationsize
 {
-	margin-bottom:5%;
-	margin-right:0;
+margin-bottom:5%;
+margin-right:0;
 }
-
-
-/*activity mobile*/
+/*activity*/
 .activitycontainer
 {
 padding-left:5%;
 padding-right:5%;
 }
-
 .titleactivitiesmobile
 {
 	padding-left:5%;
 }
-
-
-
 }
 
 
