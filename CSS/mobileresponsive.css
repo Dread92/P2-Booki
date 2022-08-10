@@ -32,10 +32,10 @@ nav:hover
 	width: 100%;
 	justify-content: space-around;
 	border-bottom: 4px solid #F2F2F2;
-	padding-bottom: 20px;	
+	padding-bottom: 0;	
 }
 .menu_list:hover
-{	
+{		
     border-bottom: 3px solid #0065FC;
 }
 nav li a:hover
@@ -45,7 +45,9 @@ nav li a:hover
 }
 nav ul li a 
 {
-	display: block;
+	display: inline-block;
+	padding:30px;
+	width: 100%;
 }
 /* searchbar */
 .searchbar 
