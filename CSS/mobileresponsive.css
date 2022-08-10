@@ -35,13 +35,17 @@ nav:hover
 	padding-bottom: 20px;	
 }
 .menu_list:hover
-{
-	border-top: none;
+{	
     border-bottom: 3px solid #0065FC;
 }
 nav li a:hover
 {
 	border-top:none;
+	border-top: white;
+}
+nav ul li a 
+{
+	display: block;
 }
 /* searchbar */
 .searchbar 
