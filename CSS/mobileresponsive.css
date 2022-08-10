@@ -255,27 +255,7 @@ background-color: #DEEBFF;
 transition:  200ms ease;
 cursor:pointer;	
 }
-.activityimg1
-{
-height:150px;
-}
-.activityimg2
-{
-height:150px;
-}
-.activityimg3
-{
-height:150px;
-}
-.activityimg4
-{
-height:150px;
-}
-.activityimg5
-{
-height:150px;
-}  
-.activityimg6
+.activityimg1, .activityimg2, .activityimg3, .activityimg4, .activityimg5, .activityimg6
 {
 height:150px;
 }
