@@ -1,289 +1,300 @@
 /* for mobile resolution, breakpoint at 768px*/
-@media screen and (max-width: 768px){
-/*Global settings*/
-body 
-{
-	padding:0
-}
-/*header*/
-header
-{	
-	display: block;
-}
-header img
-{
-	display:block;
-	margin: auto;
-}
-/*nav*/
-.menu
-{
-	display: flex;
-	justify-content: space-between;
-	cursor:pointer;
-	padding-left:0;
-}
-nav:hover
-{
-	color:#0065FC
-}
-.menu_list
-{
-	width: 100%;
-	justify-content: space-around;
-	border-bottom: 4px solid #F2F2F2;
-	padding-bottom: 0;	
-}
-.menu_list:hover
-{		
-    border-bottom: 3px solid #0065FC;
-}
-nav li a:hover
-{
-	border-top:none;
-	border-top: white;
-}
-nav ul li a 
-{
-	display: inline-block;
-	padding:30px;
-	width: 100%;
-}
-/* searchbar */
-.searchbar 
-{
-display: flex;
-justify-content: center;	
-}
-.research_button
-{
-display: none;
-}
-.glass
-{
-color: white;
-display:flex;
-width:50px;
-height:50px;
-justify-content: center;
-background-color: #0065FC;
-padding-top:15px;
-border-radius: 15px 15px 15px 15px;
-font-size:18px;
-position: relative;
-left: -20px
-}
-.inputsearch
-{
-display: flex;
-height:50px;
-width: 300px;
-font-size: 18px;
-writing-mode: horizontal-tb;
-border:0.5px solid #F2F2F2	
-}
-.placeholder
-{
-	padding-left:10px;
-	width:90%;
-	font-weight: bold;
-	color:black;
-	border:#F2F2F2;
-	outline:none;
-	background-color: white;
-}
-.mapicon
-{
-	background-color: #F2F2F2;
-	display: flex;
-	height:50px;
-	padding-top:15px;
-	width:55px;
-	font-size:18px;
-	justify-content: center;
-	border-radius: 15px 0 0 15px;
-}
-/* filters */
-.filters
-{
-	flex-direction: column;
-	align-items: flex-start;	
-}
-.filterrow
-{
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
-	flex-direction: row;
-}
-.filterrowmargin 
-{
-	margin-top: 10px;
-	
-}
-.filterbuttons
-{
-	margin-right:10px;
-}
-/* Accomodation+Popular */
-main  
-{
-	width:100%;
-}
-.separatedblocks
-{
-display: flex;
-flex-direction: column-reverse;
-width:100%;
-margin-left:0;
-}
-.popularcard
-{
-transition:  200ms ease;	
-}
-.popularcard:hover
-{
-transform: scale(1.02);
-background-color: #DEEBFF;
-transition:  200ms ease;
-}
-.accomodationtitle
-{
-  padding-top:25px;
-  margin-left:5%;
-  margin-bottom: 5%;
-}
-.firstline
-{
-display: flex;
-flex-direction: column;
-width:95%;
-margin-bottom:auto;
-}
-.secondline
-{
-display: flex;
-flex-direction: column;
-width: 95%;	
-}
-.whitebackground
-{
-width: 95%;
-box-shadow: 5px 5px 5px 1px #f2f2f2
-}
-.accomodationsize
-{
-width:100%;
-}
-.accomodations
-{
-width:100%;
-background-color: white;
-}
-.popularsize
-{
-width: 100%;
-background-color: #F2F2F2;
-padding:0;
-border-radius: 0;
-}
-.starspopular
-{
-margin-top:0;
-}
-.starspopular2
-{
-margin-top: 0;
-}
-.whitebackground
-{
-margin-bottom: 30px;
-margin-left:65px;
-transition:  200ms ease;
-width:100%;
-}
-.whitebackground:hover
-{
-transform: scale(1.02);
-background-color: #DEEBFF;
-transition:  200ms ease;
-}
-.displaymore
-{
-margin-top:0;
-margin-left: 50px;
-}
-.popularimgstretch
-{
-object-fit: cover;
-width: 44%;
-height: 185px;
-border-radius: 15px 0 0 15px;
-}
-/*activities*/ 
-.titleactivitiesmobile
-{
-padding-left: 5%
-}
-.activitycontainer
-{
-display: flex;
-flex-direction: column;
-height: auto;
-justify-content: center;
-align-items: center;
-padding-left:7%;
-padding-right:7%;
-width: 100%;
-}
-.smallactivitycontainer
-{
-width: 100%;
-height: auto;
-margin-bottom: 50px;
-}
-.largeactivitycard
-{
-width: 100%;
-margin-bottom: 50px;
-height:auto;
-}
-.smallactivitycard:hover
-{
-transform: scale(1.02);
-background-color: #DEEBFF;
-transition:  200ms ease;
-}
-.largeactivitycard:hover
-{
-transform: scale(1.02);
-background-color: #DEEBFF;
-transition:  200ms ease;
-cursor:pointer;	
-}
-.activityimg1, .activityimg2, .activityimg3, .activityimg4, .activityimg5, .activityimg6
-{
-height:150px;
-}
-/*footer*/
-.footerblock
-{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding-left: 20px;
-height:100%;
-margin-top:0;		
-}
-.firstcolumn
-{
-margin-top: 5%;
-margin-left:0;
-margin-bottom: 5%;
-}
-.thirdcolumn
-{
-margin-bottom: 0;
-margin-right: 15%;
-}
+@media screen and (max-width: 768px) {
+
+	/*Global settings*/
+	body {
+		padding: 0
+	}
+
+	/*header*/
+	header {
+		display: block;
+	}
+
+	header img {
+		display: block;
+		margin: auto;
+	}
+
+	/*nav*/
+	.menu {
+		display: flex;
+		justify-content: space-between;
+		cursor: pointer;
+		padding-left: 0;
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+
+	nav:hover {
+		color: #0065FC
+	}
+
+	.menu_list {
+		width: 100%;
+		justify-content: space-around;
+		border-bottom: 4px solid #F2F2F2;
+		padding-bottom: 0;
+	}
+
+	.menu_list:hover {
+		border-bottom: 3px solid #0065FC;
+	}
+
+	nav ul li a:hover {
+		border-top: none;
+		border-top: white;
+		padding-top:0%;
+	}
+
+	nav ul li a {
+		display: inline-block;
+		padding: 30px;
+		width: 100%;
+		padding-top:0%;
+	}
+
+	/* searchbar */
+	.searchbar {
+		display: flex;
+		justify-content: center;
+	}
+
+	.research_button {
+		display: none;
+	}
+
+	.glass {
+		color: white;
+		display: flex;
+		width: 50px;
+		height: 50px;
+		justify-content: center;
+		background-color: #0065FC;
+		padding-top: 15px;
+		border-radius: 15px 15px 15px 15px;
+		font-size: 18px;
+		position: relative;
+		left: -20px
+	}
+
+	.inputsearch {
+		display: flex;
+		height: 50px;
+		width: 300px;
+		font-size: 18px;
+		writing-mode: horizontal-tb;
+		border: 0.5px solid #F2F2F2
+	}
+
+	.placeholder {
+		padding-left: 10px;
+		width: 90%;
+		font-weight: bold;
+		color: black;
+		border: #F2F2F2;
+		outline: none;
+		background-color: white;
+	}
+
+	.mapicon {
+		background-color: #F2F2F2;
+		display: flex;
+		height: 50px;
+		padding-top: 15px;
+		width: 55px;
+		font-size: 18px;
+		justify-content: center;
+		border-radius: 15px 0 0 15px;
+	}
+
+	/* filters */
+	.filters {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.filterrow {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		flex-direction: row;
+	}
+
+	.filterrowmargin {
+		margin-top: 10px;
+
+	}
+
+	.filterbuttons {
+		margin-right: 10px;
+	}
+
+	/* Accomodation+Popular */
+	main {
+		width: 100%;
+	}
+
+	.separatedblocks {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	.popularcard {
+		transition: 200ms ease;
+	}
+
+	.popularcard:hover {
+		transform: scale(1.02);
+		background-color: #DEEBFF;
+		transition: 200ms ease;
+	}
+
+	.accomodationtitle {
+		padding-top: 25px;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+
+	.firstline {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: auto;
+	}
+
+	.secondline {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.whitebackground {
+		width: 100%;
+		box-shadow: 5px 5px 5px 1px #f2f2f2
+	}
+
+	.accomodationsize {
+		width: 100%;
+	}
+
+	.accomodations {
+		width: 100%;
+		background-color: white;
+		padding-left:10%;
+	}
+
+	.popularsize {
+		width: 100%;
+		background-color: #F2F2F2;
+		padding: 0;
+		border-radius: 0;
+	}
+
+	.starspopular {
+		margin-top: 0;
+	}
+
+	.starspopular2 {
+		margin-top: 0;
+	}
+
+	.whitebackground {
+		margin-bottom: 30px;
+		transition: 200ms ease;
+		width: 100%;
+	}
+
+	.whitebackground:hover {
+		transform: scale(1.02);
+		background-color: #DEEBFF;
+		transition: 200ms ease;
+	}
+
+	.displaymore {
+		margin-top: 0;
+		margin-left: 50px;
+	}
+
+	.popularimgstretch {
+		object-fit: cover;
+		width: 33%;
+		height: 185px;
+		border-radius: 15px 0 0 15px;
+	}
+
+	/*activities*/
+	.titleactivitiesmobile {
+		padding-left: 5%
+	}
+
+	.activitycontainer {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
+		align-items: center;
+		padding-left: 7%;
+		padding-right: 7%;
+		width: 100%;
+	}
+
+	.smallactivitycontainer {
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+	}
+
+	.largeactivitycard {
+		width: 100%;
+		margin-bottom: 50px;
+		height: auto;
+	}
+
+	.smallactivitycard:hover {
+		transform: scale(1.02);
+		background-color: #DEEBFF;
+		transition: 200ms ease;
+	}
+
+	.largeactivitycard:hover {
+		transform: scale(1.02);
+		background-color: #DEEBFF;
+		transition: 200ms ease;
+		cursor: pointer;
+	}
+
+	.activityimg1,
+	.activityimg2,
+	.activityimg3,
+	.activityimg4,
+	.activityimg5,
+	.activityimg6 {
+		height: 150px;
+	}
+
+	/*footer*/
+	.footerblock {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 20px;
+		height: 100%;
+		margin-top: 0;
+	}
+
+	.firstcolumn {
+		margin-top: 5%;
+		margin-left: 0;
+		margin-bottom: 5%;
+	}
+
+	.thirdcolumn {
+		margin-bottom: 0;
+		margin-right: 15%;
+	}
 }
