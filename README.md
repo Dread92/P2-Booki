@@ -1,5 +1,7 @@
 # Projet 2 - Booki
 
+github profile: https://github.com/Dread92
+
 " Booki " est le deuxième projet de la formation développeur web junior proposée par OpenClassrooms. 
 
 Booki est un site de réservation de vacances. 
