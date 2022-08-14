@@ -24,7 +24,7 @@ Les différentes contraintes sont :
 - Enfin, le code doit être valide au W3C pour le HTML comme pour le CSS.
 
 
-Lien vers git hub pages : https://dread92.github.io/Projet-2---Booki/
+Lien vers git hub pages : https://dread92.github.io/Projet-2---Booki/ ( le lien github pages semble ne pas prendre en compte certaines modifications effectuées, en dépit des push que j'ai pu faire.)
 
 
 Maquette mobile: 
