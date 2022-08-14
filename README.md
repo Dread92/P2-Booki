@@ -23,4 +23,9 @@ Les différentes contraintes sont :
 
 Lien vers git hub pages : https://dread92.github.io/Projet-2---Booki/
 
+
+
+Maquette:
+
 ![alt text](https://user-images.githubusercontent.com/108698167/184548351-a91a1951-6c31-449e-8d4d-3256d58cc9e4.png)
+
