@@ -41,6 +41,15 @@ padding-right:5%;
 {
 	padding-left:5%;
 }
+.whitebackground
+{
+height:auto
+}
+.descriptioncard h3
+{
+white-space: nowrap;
+font-size:medium
+}
 }
 
 
