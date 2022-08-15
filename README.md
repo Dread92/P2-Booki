@@ -1,5 +1,7 @@
 # Projet 2 - Booki
 
+github profile: https://github.com/Dread92
+
 " Booki " est le deuxième projet de la formation développeur web junior proposée par OpenClassrooms. 
 
 Booki est un site de réservation de vacances. 
@@ -10,7 +12,7 @@ Sarah, la CTO, vous envoie un mail récapitulant les différentes contraintes et
 Les différentes contraintes sont : 
 
 - Le site doit être codé en HTML/CSS sans utiliser aucun framework. 
-- Les balises sémantiques ( type <main>, <header>, <nav> ) doivent être utilisées dans le HTML.
+- Les balises sémantiques ( type main, header, nav ) doivent être utilisées dans le HTML.
 - Le site doit s'adapter en responsive aux formats desktop, tablette, et mobile via les mediaqueries. Les breakpoints sont : 992px pour desktop à tablette, 768px pour tablette à mobile. 
 - Dans le menu de navigation, " hébergements" et " activités " doivent renvoyer à l'élément correspondant de la page quand l'utilisateur clique dessus. 
 - La police du site utilisée est Raleway ( https://fonts.google.com/specimen/Raleway)
@@ -22,7 +24,7 @@ Les différentes contraintes sont :
 - Enfin, le code doit être valide au W3C pour le HTML comme pour le CSS.
 
 
-Lien vers git hub pages : https://dread92.github.io/Projet-2---Booki/
+Lien vers git hub pages : https://dread92.github.io/Projet-2---Booki/ ( le lien github pages semble ne pas prendre en compte certaines modifications effectuées, en dépit des push que j'ai pu faire.)
 
 
 Maquette mobile: 
