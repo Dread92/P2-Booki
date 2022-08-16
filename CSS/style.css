@@ -29,7 +29,6 @@ footer {
 
 header {
 	width: 100%;
-	max-width: 1800px;
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
