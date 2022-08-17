@@ -55,10 +55,16 @@
 		padding-top:0%;
 	}
 
+	/*Title*/
+	.main_title{
+		padding-left:5%;
+	}
+
 	/* searchbar */
 	.searchbar {
 		display: flex;
 		justify-content: center;
+		padding-left:5%;
 	}
 
 	.research_button {
