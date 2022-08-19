@@ -120,6 +120,7 @@
 		align-items: center;
 		margin-bottom: 10px;
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	.filterrowmargin {
@@ -147,6 +148,8 @@
 
 	.popularcard {
 		transition: 200ms ease;
+		margin-left:5%;
+		margin-right:5%;
 	}
 
 	.popularcard:hover {
@@ -186,7 +189,7 @@
 	.accomodations {
 		width: 100%;
 		background-color: white;
-		padding-left:10%;
+		
 	}
 
 	.popularsize {
