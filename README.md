@@ -12,15 +12,25 @@ Sarah, the CTO, sends you an email summarizing the various constraints and speci
 The different constraints are as follows:
 
 -The site must be coded in HTML/CSS without using any framework.
+
 -Semantic tags (e.g., main, header, nav) must be used in the HTML.
+
 -The site must be responsive and adapt to desktop, tablet, and mobile formats using media queries. The breakpoints are 992px for desktop to tablet and 768px for tablet to mobile.
+
 -In the navigation menu, "accommodations" and "activities" should scroll to the corresponding element on the page when clicked by the user.
+
 -The site should use the Raleway font (https://fonts.google.com/specimen/Raleway).
+
 -Filters should change on hover, using a transform (scale) effect.
+
 -The site's colors are #0065FC and #DEEBFF for the two shades of blue, and #F2F2F2 for gray.
+
 -Flexbox should be used instead of Grid because the team is more familiar with it.
+
 -All sizes should be expressed in pixels (px), not em or rem.
+
 -The site must be compatible with different browsers (Chrome, Firefox, Opera, etc.).
+
 Finally, the code must be W3C compliant for both HTML and CSS.
 Link to GitHub Pages: https://dread92.github.io/Projet-2---Booki/ (Note that the GitHub Pages link may not reflect some modifications despite the pushes I have made.)
 
